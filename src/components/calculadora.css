@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; 
+    font-family: Arial, sans-serif;
+  }
+  
+  .comeco{
+    width: 450px;
+    height: 380px;
+    margin: 50px auto;
+    font-size: 13px;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+  
+  }
+  
+  .comeco h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .comeco input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .botao {
+    margin: 20px;
+  }
+  
+  .botao button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px 24px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botao button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 20px;
+  } 

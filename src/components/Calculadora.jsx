@@ -1,23 +1,23 @@
+import React from 'react'
+import '../components/calculadora.css'
+
 const Calculadora = () => {
   return (
-    <div class='corpo'>
-      <div class='tudo'>
-        <h1>Calculadora Simples</h1>
-        <div class='lacunas'>
-          <input type="number" placeholder="Digite o primeiro número" /><br></br>
-          <input type="number" placeholder="Digite o segundo número" />
-          <br></br>
-        </div>
-        
+    <div className="comeco">
+      <h1>Calculadora Simples</h1>
+      <input type="number" placeholder="Digite o primeiro número" />
+      <br />
+      <input type="number" placeholder="Digite o segundo número" />
+      <br />
+      <div className="botao">
         <button>Somar</button>
         <button>Subtrair</button>
         <button>Multiplicar</button>
         <button>Dividir</button>
-
-         <p>Resultado:</p>
-         </div>
+      </div>
+      <p><strong>Resultado:</strong></p>
     </div>
   )
 }
 
-export default Calculadora
+export default Calculadora;
